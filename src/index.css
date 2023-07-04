@@ -11,6 +11,8 @@
 .Main-items{
   border-radius: 25px;
   box-shadow: 10px 10px 20px 2px #8a8a8a;
+  background-color: black;
+
 }
 
 
@@ -173,7 +175,7 @@
   border-bottom-left-radius: 25px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
 
 
   .buttons{
@@ -185,15 +187,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:black ;
 
-    
   }
 
 
   .Main-items{
     border-radius: 25px;
     box-shadow: 10px 10px 20px 2px #8a8a8a;
-    background-color: black;
+    /* background-color: black; */
   }
 
   .contact-button{
